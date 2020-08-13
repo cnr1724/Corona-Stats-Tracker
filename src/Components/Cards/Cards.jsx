@@ -15,24 +15,28 @@ const Cards = ({
   let carddetails = [
     {
       style: styles.infected,
-      text: "Infected cases",
+      text: "Infected",
       value: confirmed.value,
+      bottomText: "Cases of infected people of corona virus",
 
     },
     {
       style: styles.recovered,
       text: "Recovered",
       value: recovered.value,
+      bottomText: "Cases of recoveries from corona virus",
     },
     {
       style: styles.deaths,
       text: "Deaths",
       value: deaths.value,
+      bottomText: "Cases of deaths caused by corona virus",
     },
     {
       style: styles.active,
-      text: "Active cases",
+      text: "Active",
       value: active,
+      bottomText: "Number of active cases of corona virus",
     },
   ];
   return (
@@ -46,7 +50,7 @@ const Cards = ({
             md={2}
             className={cx(styles.Card, detail.style)}
             key={index}
-            style={{ margin: "0px 25.675px", padding: "4px" , height: "100px" , width: "500px" }}
+            style={{ margin: "0px 25.675px 0px 50px", padding: "2px" }}
           >
             <CardContent>
               <Typography color="textPrimary" gutterBottom>
@@ -60,6 +64,7 @@ const Cards = ({
                   separator=","
                 />
               </Typography>
+              <Typography color="textPrimary" variant="body2">{detail.bottomText}</Typography>
             </CardContent>
           </Grid>
         ))}
