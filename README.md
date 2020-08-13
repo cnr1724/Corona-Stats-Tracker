@@ -4,6 +4,8 @@ A ReactJSapplication for demonstrating the current status of Covid19. The applic
 Live Demo:<a href='https://corona-tracker-stats.herokuapp.com/'> Click Here</a>
 
 # Screens:
-https://github.com/cnr1724/Corona-Stats-Tracker/blob/master/src/images/img1.png
 
-https://github.com/cnr1724/Corona-Stats-Tracker/blob/master/src/images/img2.png
+![](https://github.com/cnr1724/Corona-Stats-Tracker/blob/master/src/images/img1.png)
+
+![](https://github.com/cnr1724/Corona-Stats-Tracker/blob/master/src/images/img2.png)
+
